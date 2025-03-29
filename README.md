@@ -1,0 +1,2 @@
+# TREKK
+Ai Travel Assistant
