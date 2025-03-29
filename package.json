@@ -16,5 +16,10 @@
     "url": "https://github.com/ravenhospie/MyNavigator/issues"
   },
   "homepage": "https://github.com/ravenhospie/MyNavigator#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "^5.0.1"
+  }
 }
