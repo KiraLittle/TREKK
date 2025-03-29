@@ -3,14 +3,14 @@ const axios = require('axios');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 12000;
 
 // Enable CORS for frontend to make requests
 app.use(cors());
 
 // Your Amadeus API credentials
-const CLIENT_ID = 'YOUR_CLIENT_ID';
-const CLIENT_SECRET = 'YOUR_CLIENT_SECRET';
+const CLIENT_ID = '';
+const CLIENT_SECRET = '';
 
 // Endpoint to get the Amadeus token (OAuth 2.0)
 app.get('/amadeus-token', async (req, res) => {
