@@ -1,0 +1,68 @@
+.info-header {
+  position: relative;
+  background-color: #fefbea;
+  min-height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 4rem;
+  color: #5c4033;
+}
+
+.info-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.info-header p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.info-form {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.info-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.button-stack {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  background-color: rgb(208, 154, 5);
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: rgb(180, 135, 5);
+}
+
+.info-logo-bottom {
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+  height: 600px;
+  pointer-events: none;
+  opacity: 0.9;
+}
