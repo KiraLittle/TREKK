@@ -18,8 +18,11 @@
   "homepage": "https://github.com/ravenhospie/MyNavigator#readme",
   "description": "",
   "dependencies": {
+    "axios": "^1.8.4",
+    "openai": "^4.90.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "^5.0.1"
+    "react-router-dom": "^7.4.1",
+    "react-scripts": "^3.0.1"
   }
 }

@@ -61,3 +61,41 @@ button {
 button:hover {
   background-color: #b88704;
 }
+.chatbot-container {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.chat-window {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.chat-user {
+  text-align: right;
+  margin-bottom: 8px;
+}
+
+.chat-bot {
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input-row input {
+  flex: 1;
+  padding: 8px;
+}
+
+.chat-input-row button {
+  padding: 8px 16px;
+}
+
